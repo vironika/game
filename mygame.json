@@ -1,0 +1,70 @@
+{
+    "main": [{
+            "url": "images/santa_small.jpg",
+            "xpos": 400,
+            "ypos": 100
+        },
+        {
+            "url": "images/winter_small.jpg",
+            "xpos": 580,
+            "ypos": 100
+        },
+        {
+            "url": "images/elsa_small.jpg",
+            "xpos": 760,
+            "ypos": 100
+        },
+        {
+            "url": "images/snowman_small.jpg",
+            "xpos": 940,
+            "ypos": 100
+        }
+                ],
+    "pics": [
+        {
+            "url": "images/santa.jpg",
+            "xpos": 340,
+            "ypos": 100
+        },
+        {
+            "url": "images/winter.jpg",
+            "xpos": 520,
+            "ypos": 100
+        },
+        {
+            "url": "images/elsa.jpg",
+            "xpos": 700,
+            "ypos": 100
+        },
+        {
+            "url": "images/snowman.jpg",
+            "xpos": 880,
+            "ypos": 100
+        }
+        ],
+    "elsa": [
+        {
+            "spots": [{
+                "sx": 240,
+                "sy": 260
+    }, {
+                "sx": 165,
+                "sy": 345
+    }, {
+                "sx": 19,
+                "sy": 192
+    }, {
+                "sx": 270,
+                "sy": 69
+    }, {
+                "sx": 370,
+                "sy": 250
+    }, {
+                "sx": 232,
+                "sy": 219
+    }, {
+                "sx": 234,
+                "sy": 186
+    }]
+          }]
+}
