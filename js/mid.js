@@ -39,15 +39,14 @@ var dif; //distance for differences
 var e = 35; //size of difference ellipse
 var score = 0;
 
-var conW = 1440; //convas wight
-var conH = 900; //convas hight
+var conW = 1440; //concvas wight
+var conH = 900; //covas hight
 
 var game; //my data
 
 function preload() {
 
     bg = loadImage("images/bg.jpeg");
-    
     mySound1 = loadSound('sounds/bell.mp3');
 
     mySound2 = loadSound('sounds/wrong.wav');
@@ -91,7 +90,7 @@ function mousePressed() {
 
 
         }, 2000);
-    } else{}
+    } else
 
 
     if (dist(game.main[1].xpos, game.main[1].ypos, mouseX, mouseY) < d) {
@@ -100,14 +99,14 @@ function mousePressed() {
             winter();
             //loadBoard(game.main[1])
         }, 2000);
-    } else{}
+    } else
 
     if (dist(game.main[2].xpos, game.main[2].ypos, mouseX, mouseY) < d) {
 
         setTimeout(function () {
             elsa();
         }, 2000);
-    } else{}
+    } else
 
 
     if (dist(game.main[3].xpos, game.main[3].ypos, mouseX, mouseY) < d) {
@@ -145,7 +144,6 @@ function mousePressed() {
         difelsa();
 
     }
-    else {}
 
     //spot 1
     var elX1 = game.elsa[0].spots[1].sx;
@@ -166,7 +164,6 @@ function mousePressed() {
         difelsa();
 
     }
-    else {}
 
     //spot 2
     var elX2 = game.elsa[0].spots[2].sx;
@@ -187,7 +184,7 @@ function mousePressed() {
         difelsa();
 
     }
-    else {}
+
 
     //spot 3
     var locx3 = game.elsa[0].spots[3].sx + startX;
@@ -202,10 +199,8 @@ function mousePressed() {
         ellipse(locx3, locy3, e, e);
         ellipse(locx3+h, locy3, e, e);
         difelsa();
-        
+
     }
-    else {}
-    
     //spot 4
     var locx4 = game.elsa[0].spots[4].sx + startX;
     var locy4 = game.elsa[0].spots[4].sy + startY;
@@ -220,7 +215,7 @@ function mousePressed() {
         difelsa();
 
     }
-    else {}
+
     //spot 5
     var locx5 = game.elsa[0].spots[5].sx + startX;
     var locy5 = game.elsa[0].spots[5].sy + startY;
@@ -234,7 +229,7 @@ function mousePressed() {
         ellipse(locx5+h, locy5, e, e);
         difelsa();
     }
-    else {}
+
 
     //spot 6
 
