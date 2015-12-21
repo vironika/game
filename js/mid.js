@@ -54,7 +54,7 @@ function preload() {
     mySound3 = loadSound('sounds/MerryChristmas.mp3');
 
     game = loadJSON("mygame.json");
-}
+}//end preload()
 
 // create main page
 function setup() {
@@ -75,7 +75,7 @@ function setup() {
     setTimeout(function () {
         page1();
     }, 2000);
-}
+}//end setup()
 
 
 
@@ -253,7 +253,7 @@ function mousePressed() {
 
 
 
-}
+}//end mousePressed()
 
 
 function elsa() {
@@ -301,7 +301,7 @@ function difelsa() {
 
 
 
-}
+}//end  elsa() 
 
 function page1() {
 
@@ -322,7 +322,7 @@ function page1() {
     image(p4s, game.main[3].xpos, game.main[3].ypos);
 
 
-}
+}//page1()
 
 
 function santa() {
@@ -342,7 +342,7 @@ function santa() {
 
 
     //    difelsa();
-}
+}//end santa() 
 
 function winter() {
 
@@ -361,8 +361,7 @@ function winter() {
 
 
 
-}
-
+}//end winter()
 function snowman() {
 
     clear();
@@ -381,4 +380,4 @@ function snowman() {
 
 
     //    dif();
-}
+}//end snowman()
