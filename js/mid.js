@@ -163,7 +163,7 @@ function mousePressed() {
         ellipse(locx1+h, locy1, e, e);
         difelsa();
 
-    }
+    }else {}
 
     //spot 2
     var elX2 = game.elsa[0].spots[2].sx;
@@ -183,7 +183,7 @@ function mousePressed() {
         ellipse(locx2+h, locy2, e, e);
         difelsa();
 
-    }
+    }else {}
 
 
     //spot 3
@@ -200,7 +200,7 @@ function mousePressed() {
         ellipse(locx3+h, locy3, e, e);
         difelsa();
 
-    }
+    }else {}
     //spot 4
     var locx4 = game.elsa[0].spots[4].sx + startX;
     var locy4 = game.elsa[0].spots[4].sy + startY;
@@ -214,7 +214,7 @@ function mousePressed() {
         ellipse(locx4+h, locy4, e, e);
         difelsa();
 
-    }
+    }else {}
 
     //spot 5
     var locx5 = game.elsa[0].spots[5].sx + startX;
@@ -228,7 +228,7 @@ function mousePressed() {
         ellipse(locx5, locy5, e, e);
         ellipse(locx5+h, locy5, e, e);
         difelsa();
-    }
+    }else {}
 
 
     //spot 6
