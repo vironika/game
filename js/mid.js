@@ -143,7 +143,7 @@ function mousePressed() {
         ellipse(locx+h, locy, e, e);
         difelsa();
 
-    }
+    }else {}
 
     //spot 1
     var elX1 = game.elsa[0].spots[1].sx;
@@ -296,7 +296,7 @@ function difelsa() {
         mySound3.play();
         fill(255, 0, 0);
         text("Yea!!! You found all " + score + " differences", startX + 70, ty + 65);
-    };
+    }
 
 
 
